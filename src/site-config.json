@@ -1,0 +1,524 @@
+{
+  "business": {
+    "name": "Onyx Fencing",
+    "phone": "555-fen-r93",
+    "category": "fencing",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "fencing-dark-premium",
+      "categoryGroup": "fencing",
+      "name": "Dark Premium",
+      "recipeFile": "fencing/dark-premium.astro",
+      "colors": {
+        "primary": "#D4A574",
+        "primaryDark": "#aa845d",
+        "primaryLight": "#eedbc7",
+        "secondary": "#2A2A2A",
+        "accent": "#dab389",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "fencing/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Durable Fencing for San Antonio Homes",
+      "heroSubline": "Custom fencing solutions built for Texas weather. From historic properties to new developments, we craft barriers that stand up to hill country conditions.",
+      "aboutTitle": "Built for San Antonio's Landscape",
+      "aboutText": [
+        "Founded in 2012, Onyx Fencing started with a simple mission: build fences that last in South Texas' challenging climate. What began as a two-person operation serving Stone Oak has grown into a trusted team serving all of Bexar County.",
+        "We approach every project with an understanding of local soil conditions - whether we're drilling into limestone bedrock on the west side or working with expansive clay soils near New Braunfels. Our crews train specifically on San Antonio's unique terrain.",
+        "When we're not installing fences, you'll find us volunteering with habitat restoration projects along the Medina River or sponsoring little league teams in Helotes."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Materials",
+          "description": "We source cedar and steel from Central Texas suppliers, ensuring materials are already acclimated to our climate."
+        },
+        {
+          "title": "Soil Experts",
+          "description": "Twelve years working with hill country limestone means we know how to set posts that won't heave or shift."
+        },
+        {
+          "title": "Storm Ready",
+          "description": "Our designs account for flash flood risks common in Schertz and New Braunfels drainage areas."
+        },
+        {
+          "title": "Military Discount",
+          "description": "Special pricing for active duty and veterans stationed at Randolph AFB or Lackland."
+        }
+      ],
+      "ctaHeadline": "Get a Free Fencing Estimate Today",
+      "ctaSubline": "Schedule your on-site consultation with a local expert who understands your neighborhood's specific needs."
+    },
+    "services": [
+      {
+        "slug": "cedar-fencing",
+        "name": "Cedar Fencing",
+        "shortDescription": "Natural cedar fences that resist Texas heat and humidity.",
+        "description": "Our locally-sourced cedar fencing brings warmth to San Antonio properties while standing up to our challenging climate. Unlike cheaper pine alternatives, cedar naturally resists warping in our humid summers and won't deteriorate as quickly when exposed to hill country downpours.\n\nWe offer multiple stain options to complement different architectural styles - from traditional dark stains perfect for Alamo Heights historic districts to lighter tones that brighten newer northside developments. All our cedar planks are pre-treated with weather-resistant sealant to prevent early graying.\n\nInstallation includes steel-reinforced corner posts set 36\" deep to prevent leaning in our expansive clay soils, with intermediate posts spaced according to your property's specific terrain challenges.",
+        "process": [
+          "Step 1: Site evaluation checking for limestone outcroppings and drainage patterns",
+          "Step 2: Custom design consultation choosing plank style and stain options",
+          "Step 3: Foundation preparation with steel-reinforced post holes",
+          "Step 4: Installation with weatherproof hardware and final sealant application"
+        ],
+        "benefits": [
+          "Naturally insect-resistant without chemical treatments",
+          "Minimal maintenance compared to other wood types",
+          "Acclimated to Central Texas temperature swings",
+          "Adds 5-7% to property values in our market"
+        ],
+        "faq": [
+          {
+            "question": "How often will my cedar fence need resealing?",
+            "answer": "In San Antonio's climate, we recommend resealing every 3-4 years. Properties with more sun exposure may need it every 2-3 years to maintain optimal protection."
+          },
+          {
+            "question": "Can cedar fencing withstand our occasional freezes?",
+            "answer": "Yes - unlike vinyl that becomes brittle in cold snaps, cedar maintains flexibility. We use special expansion hardware to accommodate winter contraction."
+          }
+        ]
+      },
+      {
+        "slug": "wrought-iron-fencing",
+        "name": "Wrought Iron Fencing",
+        "shortDescription": "Elegant yet secure metal fencing for South Texas estates.",
+        "description": "Wrought iron fencing brings timeless security and curb appeal to San Antonio's luxury properties. Our custom fabricated designs complement everything from historic Southtown homes to modern Stone Oak estates.\n\nWe use heavy-gauge steel with a powder-coated finish that resists fading in our intense sunlight. All welds are smooth and reinforced to prevent weakness points - crucial for withstanding the strong winds that funnel through hill country canyons.\n\nGate systems include commercial-grade hinges and self-latching mechanisms tested to perform reliably even during our rare freeze events. We can integrate existing security systems or recommend local providers for automated access solutions.\n\nFor properties near downtown, we offer special rust-inhibiting treatments to combat the effects of urban pollution and hard water stains from irrigation systems.",
+        "process": [
+          "Step 1: Security assessment and access point planning",
+          "Step 2: Custom design featuring your choice of scrollwork and finials",
+          "Step 3: Fabrication using CNC-cut components for precision fit",
+          "Step 4: Installation with concrete-reinforced posts and alignment testing"
+        ],
+        "benefits": [
+          "Virtually maintenance-free compared to wood options",
+          "Deters trespassers while maintaining visibility",
+          "Withstands hurricane-force winds when properly installed",
+          "Increases property security without appearing fortress-like"
+        ],
+        "faq": [
+          {
+            "question": "How does wrought iron hold up to San Antonio's humidity?",
+            "answer": "Our powder-coated finishes include extra UV and moisture protection specifically formulated for Texas conditions. With proper care, they last 15+ years before needing refinishing."
+          },
+          {
+            "question": "Can you match historic ironwork styles?",
+            "answer": "Yes - we've replicated designs from King William District homes and the Alamo grounds. Bring us photos of what you'd like to match."
+          }
+        ]
+      },
+      {
+        "slug": "chain-link-fencing",
+        "name": "Chain Link Fencing",
+        "shortDescription": "Affordable, durable perimeter solutions for active families.",
+        "description": "Chain link remains the most practical choice for San Antonio households needing secure boundaries without blocking hill country breezes. Our commercial-grade galvanized steel stands up to years of kids, pets, and backyard gatherings.\n\nWe install with heavy-duty terminal posts set in concrete, using a specialized tamper to compact the notoriously rocky soil found in Helotes and Boerne areas. Mesh comes in varying gauges - we typically recommend 9-gauge for residential applications as it withstands our occasional hail storms better than thinner options.\n\nFor properties near Randolph AFB, we offer vinyl-coated black chain link that reduces glare from military aircraft while maintaining visibility. All installations include tension bands and stretcher bars to keep the fabric taut through temperature fluctuations.\n\nOptional privacy slits in green or tan help blend with natural surroundings while still allowing air circulation - a smart solution for homes backing onto greenbelts or golf courses.",
+        "process": [
+          "Step 1: Perimeter measurement and terrain assessment",
+          "Step 2: Post hole digging through rocky or caliche soils",
+          "Step 3: Concrete setting with proper curing time",
+          "Step 4: Fabric installation and tension adjustment"
+        ],
+        "benefits": [
+          "Most cost-effective permanent fencing solution",
+          "Allows airflow during humid summer months",
+          "Nearly invisible from street view when desired",
+          "Quick installation compared to other fence types"
+        ],
+        "faq": [
+          {
+            "question": "Will chain link rust in our climate?",
+            "answer": "Our galvanized steel resists corrosion even in humid conditions. Coastal properties may opt for vinyl coating as extra protection from salty air."
+          },
+          {
+            "question": "How tall can residential chain link be?",
+            "answer": "Most San Antonio neighborhoods allow up to 6 feet for rear yards. We'll verify your local ordinances before installation."
+          }
+        ]
+      },
+      {
+        "slug": "vinyl-privacy-fencing",
+        "name": "Vinyl Privacy Fencing",
+        "shortDescription": "Low-maintenance solid barriers for bustling neighborhoods.",
+        "description": "Vinyl privacy fencing creates peaceful outdoor retreats in San Antonio's close-knit communities. Our premium PVC material won't warp, splinter, or fade like wood - ideal for busy families who want year-round privacy without constant maintenance.\n\nWe use thick, UV-stabilized vinyl planks that resist becoming brittle in summer heat. The interlocking design prevents the gaps that often develop in cheaper vinyl fences after a few Texas summers. Reinforced rails provide extra stability during wind events common in open areas around Schertz and New Braunfels.\n\nColor options range from bright white perfect for historic district homes to textured finishes mimicking wood grain. All our vinyl comes with transferable warranties covering material defects - something we know military families transferring from Randolph AFB particularly appreciate.\n\nFor properties with significant elevation changes, we offer custom stepped or racked installations that follow the natural contours of hill country terrain without unsightly gaps.",
+        "process": [
+          "Step 1: Evaluation of sun exposure and wind patterns",
+          "Step 2: Selection of appropriate vinyl thickness and color",
+          "Step 3: Custom cutting for stepped installations where needed",
+          "Step 4: Installation with hidden fastener system for clean lines"
+        ],
+        "benefits": [
+          "Never needs painting or staining",
+          "Resists damage from sprinkler systems",
+          "Provides complete visual privacy",
+          "Easy to clean with just hose water"
+        ],
+        "faq": [
+          {
+            "question": "How does vinyl hold up in hail storms?",
+            "answer": "Our impact-resistant vinyl meets Texas storm standards. While no material is completely hail-proof, our fencing has withstood golf ball-sized hail with only minor cosmetic marks."
+          },
+          {
+            "question": "Can vinyl fencing be repaired if damaged?",
+            "answer": "Yes - the modular design allows replacement of individual panels without redoing entire sections. We keep common colors in stock for quick repairs."
+          }
+        ]
+      },
+      {
+        "slug": "pool-barriers",
+        "name": "Pool Safety Barriers",
+        "shortDescription": "Code-compliant protection for your swimming area.",
+        "description": "Pool fencing in San Antonio requires special consideration of both safety regulations and our harsh outdoor conditions. Our removable mesh barriers and ornamental aluminum systems meet all Texas Department of Health standards while complementing your outdoor living space.\n\nFor families with young children, we recommend 4-foot removable mesh fencing with self-closing, self-latching gates. The durable polypropylene resists UV degradation and won't mildew in our humid climate. Anchors install permanently but remain nearly invisible when the barrier is removed for adult swim times.\n\nFor upscale properties, we offer powder-coated aluminum pool fences with narrow picket spacing that prevents climbing. All hardware is non-corrosive and rated for constant exposure to chlorinated water and pool chemicals. Glass panel options provide unobstructed views of your landscaping while maintaining safety.\n\nWe're familiar with all local pool fencing ordinances, including the stricter requirements for properties within flood zones like those near the Guadalupe River in New Braunfels.",
+        "process": [
+          "Step 1: Safety audit measuring distances from house to pool edge",
+          "Step 2: Selection of barrier type matching your usage patterns",
+          "Step 3: Installation with proper gate spring tension adjustment",
+          "Step 4: Final inspection to verify code compliance"
+        ],
+        "benefits": [
+          "Prevents accidental drownings per Texas law",
+          "Allows supervision through transparent designs",
+          "Removable sections for entertaining",
+          "Withstands constant pool chemical exposure"
+        ],
+        "faq": [
+          {
+            "question": "What's the minimum height for San Antonio pool fences?",
+            "answer": "Texas requires at least 48 inches with no more than 4 inches between vertical members. Gates must open outward and self-close."
+          },
+          {
+            "question": "Can existing fences be modified to meet pool codes?",
+            "answer": "Sometimes - we can evaluate your current fencing and recommend cost-effective upgrades like adding self-latching gates or reducing picket spacing."
+          }
+        ]
+      },
+      {
+        "slug": "fence-repair",
+        "name": "Fence Repair Services",
+        "shortDescription": "Restoring damaged fences to like-new condition.",
+        "description": "Texas weather takes its toll on fences - from summer storms twisting metal to invasive roots cracking concrete posts. Our repair team specializes in fixing all fence types using materials that match your existing structure for seamless results.\n\nCommon repairs include replacing cedar pickets damaged by woodpeckers (a frequent issue in Boerne's wooded areas), realigning gates sagging from soil movement, and repairing chain link fabric stretched by climbing animals. We carry period-appropriate materials for historic properties in King William District and Monte Vista.\n\nFor vinyl fences, we can often repair cracked posts with internal aluminum reinforcements rather than full replacements. Wrought iron gets sandblasted and repainted using the original color formula to maintain continuity. We even fix decorative elements like finials and scrollwork that give your fence its character.\n\nEmergency service is available for storm damage situations where fences pose immediate safety hazards. Our trucks stock common repair materials so we can often complete same-day fixes for simple issues.",
+        "process": [
+          "Step 1: Damage assessment identifying underlying causes",
+          "Step 2: Matching materials to existing fence components",
+          "Step 3: Structural reinforcement to prevent recurrence",
+          "Step 4: Cosmetic finishing for invisible repairs"
+        ],
+        "benefits": [
+          "Extends fence lifespan at fraction of replacement cost",
+          "Maintains uniform appearance across property lines",
+          "Addresses root causes beyond visible damage",
+          "Preserves historical integrity of older fences"
+        ],
+        "faq": [
+          {
+            "question": "Can you fix fences damaged by construction equipment?",
+            "answer": "Yes - we regularly repair fences after utility work or home renovations. Temporary construction fencing is also available."
+          },
+          {
+            "question": "How quickly can you respond to storm damage?",
+            "answer": "Priority dispatch is available for hazardous situations. Most storm-related repairs begin within 48 hours of contacting us."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marisol R.",
+        "rating": 5,
+        "service": "Cedar Fencing",
+        "text": "The crew from Onyx replaced our rotting pine fence with beautiful cedar that matches our Alamo Heights bungalow perfectly. They handled digging through the limestone without damaging our irrigation system. Two summers later, it still looks brand new despite some brutal storms.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Wrought Iron Fencing",
+        "text": "Our new iron fence at our Stone Oak home exceeded expectations. The custom scrollwork matches our front gate exactly, and the powder coating hasn't faded at all in the Texas sun. Installation was completed ahead of schedule even with all the rock they had to drill through.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Elena S.",
+        "rating": 5,
+        "service": "Pool Barriers",
+        "text": "As first-time pool owners near Randolph AFB, we needed safety fencing that wouldn't ruin our backyard view. Onyx installed nearly invisible glass panels that meet all codes while preserving our hill country sunset views. Their knowledge of military housing requirements was impressive.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Fence Repair",
+        "text": "After the February freeze warped several sections of our vinyl fence, Onyx had replacements that matched our 8-year-old color perfectly. They reinforced all the posts to prevent future issues and cleaned the entire fence while they were here. Worth every penny.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Natalie K.",
+        "rating": 5,
+        "service": "Chain Link Fencing",
+        "text": "Quick and affordable installation of black chain link around our dog run. The vinyl coating prevents rust from our sprinklers, and the military discount saved us 15%. Our German Shepherd hasn't found a weak spot yet!",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "Robert D.",
+        "rating": 5,
+        "service": "Vinyl Privacy Fencing",
+        "text": "Living near the Pearl District, we needed something durable against urban pollution. Our new white vinyl fence still looks pristine after a year and gives us complete privacy from the apartments next door. The crew worked around our awkward alley access without complaint.",
+        "date": "2024-09-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "San Antonio Fencing Company | Onyx Fencing",
+        "description": "Custom fencing solutions designed for Texas weather. Serving San Antonio, New Braunfels, Boerne and Schertz with durable, beautiful barriers since 2012."
+      },
+      "about": {
+        "title": "About Onyx Fencing | San Antonio Fence Experts",
+        "description": "Local fencing contractors with deep knowledge of San Antonio's terrain and climate. Family-owned serving Bexar County since 2012."
+      },
+      "services": {
+        "title": "Fence Services San Antonio | Residential & Commercial",
+        "description": "From cedar privacy fences to wrought iron security barriers, we build fences designed for Central Texas conditions."
+      },
+      "contact": {
+        "title": "Contact Onyx Fencing | Free Estimates",
+        "description": "Schedule your fencing consultation with San Antonio's trusted installers. Serving Bexar County and surrounding hill country areas."
+      },
+      "reviews": {
+        "title": "Onyx Fencing Reviews | San Antonio Customer Feedback",
+        "description": "See what San Antonio homeowners say about our fencing installations and repair services across Bexar County."
+      },
+      "service-areas": {
+        "title": "Fence Company Serving San Antonio & Surrounding Areas",
+        "description": "Providing quality fencing to New Braunfels, Boerne, Schertz and all of Bexar County. Local installers who know Texas soil."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "New Braunfels",
+        "slug": "new-braunfels-tx",
+        "state": "TX",
+        "content": "Onyx Fencing proudly serves New Braunfels, TX, providing durable and stylish fencing solutions for the charming hill country stone homes in the area. Our expertise includes custom wood, wrought iron, and chain-link fencing designed to withstand the region's hot summers while enhancing curb appeal. Whether you need privacy fencing for your backyard or a decorative fence to complement your property, we deliver quality craftsmanship tailored to your needs. New Braunfels' unique blend of historic architecture and modern growth makes it an ideal location for premium fencing services.",
+        "localContext": "Known for its beautiful hill country stone homes and hot summers, New Braunfels is a growing community with a mix of historic charm and new developments.",
+        "nearbyAreas": [
+          "San Marcos",
+          "Schertz",
+          "Cibolo"
+        ]
+      },
+      {
+        "city": "Boerne",
+        "slug": "boerne-tx",
+        "state": "TX",
+        "content": "In Boerne, TX, Onyx Fencing specializes in crafting custom fencing solutions for the area's distinctive hill country properties. From rustic wood fences to elegant wrought iron designs, we tailor our work to match the aesthetic of your home while ensuring durability in the hot Texas climate. Boerne's growing community of custom homes demands high-quality fencing for both privacy and security, and we're here to meet those needs with precision and professionalism.",
+        "localContext": "Boerne is renowned for its hill country custom homes and scenic landscapes, making it a prime location for bespoke fencing solutions.",
+        "nearbyAreas": [
+          "Fair Oaks Ranch",
+          "Comfort",
+          "Bulverde"
+        ]
+      },
+      {
+        "city": "Schertz",
+        "slug": "schertz-tx",
+        "state": "TX",
+        "content": "Onyx Fencing is a trusted provider of fencing solutions in Schertz, TX, particularly for military families near Randolph AFB. We understand the need for secure, low-maintenance fencing in this active community and offer a range of options, including vinyl, aluminum, and chain-link fencing. Schertz's hot summers require materials that can endure the heat, and our team ensures your fence remains sturdy and attractive year-round.",
+        "localContext": "Schertz is a family-friendly city with a strong military presence, featuring housing near Randolph AFB and a warm climate.",
+        "nearbyAreas": [
+          "Cibolo",
+          "Universal City",
+          "Converse"
+        ]
+      },
+      {
+        "city": "San Marcos",
+        "slug": "san-marcos-tx",
+        "state": "TX",
+        "content": "Serving San Marcos, TX, Onyx Fencing provides reliable fencing solutions for both residential and commercial properties. The city's vibrant college-town atmosphere and hot summers call for durable fencing that can handle heavy foot traffic and extreme weather. Whether you're a homeowner needing a privacy fence or a business owner looking for security fencing, our team delivers top-notch installation and repair services.",
+        "localContext": "San Marcos is a bustling college town with a lively community and a climate characterized by hot summers.",
+        "nearbyAreas": [
+          "Kyle",
+          "Buda",
+          "New Braunfels"
+        ]
+      },
+      {
+        "city": "Cibolo",
+        "slug": "cibolo-tx",
+        "state": "TX",
+        "content": "In Cibolo, TX, Onyx Fencing offers a variety of fencing options to meet the needs of this growing suburban community. From classic wood fences to modern vinyl designs, we help homeowners enhance their property's security and aesthetic appeal. Cibolo's hot summers demand fences that can resist warping and fading, and our high-quality materials ensure long-lasting results.",
+        "localContext": "Cibolo is a rapidly expanding suburb with a family-oriented community and a warm climate.",
+        "nearbyAreas": [
+          "Schertz",
+          "Universal City",
+          "Marion"
+        ]
+      },
+      {
+        "city": "Bulverde",
+        "slug": "bulverde-tx",
+        "state": "TX",
+        "content": "Onyx Fencing serves Bulverde, TX, providing custom fencing solutions for the area's sprawling ranch-style properties. Our expertise in wood, metal, and composite fencing ensures your property is both secure and visually appealing. Bulverde's hot summers and rustic charm make it essential to choose fencing that complements the natural landscape while standing up to the elements.",
+        "localContext": "Bulverde is known for its rural charm, large properties, and hot summers, making it ideal for sturdy, attractive fencing.",
+        "nearbyAreas": [
+          "Spring Branch",
+          "Boerne",
+          "Garden Ridge"
+        ]
+      },
+      {
+        "city": "Fair Oaks Ranch",
+        "slug": "fair-oaks-ranch-tx",
+        "state": "TX",
+        "content": "At Onyx Fencing, we cater to the upscale fencing needs of Fair Oaks Ranch, TX, where luxury homes demand high-end fencing solutions. Our wrought iron, aluminum, and custom wood fences are designed to enhance the elegance of your property while providing security and privacy. Fair Oaks Ranch's hot summers require materials that maintain their beauty without constant maintenance, and we deliver precisely that.",
+        "localContext": "Fair Oaks Ranch is an affluent community with luxury homes and a climate marked by hot summers.",
+        "nearbyAreas": [
+          "Boerne",
+          "Bulverde",
+          "Leon Springs"
+        ]
+      },
+      {
+        "city": "Garden Ridge",
+        "slug": "garden-ridge-tx",
+        "state": "TX",
+        "content": "Onyx Fencing is proud to serve Garden Ridge, TX, offering tailored fencing solutions for the area's spacious, wooded properties. Whether you need a rustic split-rail fence or a modern vinyl design, we provide options that blend seamlessly with the natural surroundings. Garden Ridge's hot summers call for durable fencing that withstands the heat, and our team ensures your investment lasts for years.",
+        "localContext": "Garden Ridge features large, wooded lots and a warm climate, making it perfect for nature-inspired fencing.",
+        "nearbyAreas": [
+          "Schertz",
+          "Bulverde",
+          "New Braunfels"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "cedar-fencing": "/images/service-cedar-fencing.webp",
+      "wrought-iron-fencing": "/images/service-wrought-iron-fencing.webp",
+      "chain-link-fencing": "/images/service-chain-link-fencing.webp",
+      "vinyl-privacy-fencing": "/images/service-vinyl-privacy-fencing.webp",
+      "pool-barriers": "/images/service-pool-barriers.webp",
+      "fence-repair": "/images/service-fence-repair.webp"
+    },
+    "servicesResponsive": {
+      "cedar-fencing": {
+        "src": "/images/service-cedar-fencing.webp",
+        "srcset": "/images/service-cedar-fencing-400w.webp 400w, /images/service-cedar-fencing-800w.webp 800w, /images/service-cedar-fencing-1200w.webp 1200w, /images/service-cedar-fencing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "wrought-iron-fencing": {
+        "src": "/images/service-wrought-iron-fencing.webp",
+        "srcset": "/images/service-wrought-iron-fencing-400w.webp 400w, /images/service-wrought-iron-fencing-800w.webp 800w, /images/service-wrought-iron-fencing-1200w.webp 1200w, /images/service-wrought-iron-fencing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "chain-link-fencing": {
+        "src": "/images/service-chain-link-fencing.webp",
+        "srcset": "/images/service-chain-link-fencing-400w.webp 400w, /images/service-chain-link-fencing-800w.webp 800w, /images/service-chain-link-fencing-1200w.webp 1200w, /images/service-chain-link-fencing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "vinyl-privacy-fencing": {
+        "src": "/images/service-vinyl-privacy-fencing.webp",
+        "srcset": "/images/service-vinyl-privacy-fencing-400w.webp 400w, /images/service-vinyl-privacy-fencing-800w.webp 800w, /images/service-vinyl-privacy-fencing-1200w.webp 1200w, /images/service-vinyl-privacy-fencing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pool-barriers": {
+        "src": "/images/service-pool-barriers.webp",
+        "srcset": "/images/service-pool-barriers-400w.webp 400w, /images/service-pool-barriers-800w.webp 800w, /images/service-pool-barriers-1200w.webp 1200w, /images/service-pool-barriers.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fence-repair": {
+        "src": "/images/service-fence-repair.webp",
+        "srcset": "/images/service-fence-repair-400w.webp 400w, /images/service-fence-repair-800w.webp 800w, /images/service-fence-repair-1200w.webp 1200w, /images/service-fence-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
